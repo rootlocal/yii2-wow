@@ -1,0 +1,44 @@
+{
+  "name": "rootlocal/yii2-wow",
+  "description": "Yii2 WOW. Reveal CSS animation as you scroll down a page",
+  "keywords": [
+    "yii2",
+    "WOW",
+    "animate.css"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD 3-Clause",
+  "support": {
+    "issues": "https://github.com/rootlocal/yii2-wow/issues",
+    "source": "https://github.com/rootlocal/yii2-wow"
+  },
+  "authors": [
+    {
+      "name": "Alexander Zakharov",
+      "email": "sys@eml.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "~2.0",
+    "bower-asset/animate.css": "~3.7",
+    "bower-asset/wow": "~1.1"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "rootlocal\\widgets\\wow\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

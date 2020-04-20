@@ -7,7 +7,7 @@
     "animate.css"
   ],
   "type": "yii2-extension",
-  "license": "BSD 3-Clause",
+  "license": "BSD-3-Clause",
   "support": {
     "issues": "https://github.com/rootlocal/yii2-wow/issues",
     "source": "https://github.com/rootlocal/yii2-wow"

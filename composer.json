@@ -21,7 +21,7 @@
   "require": {
     "php": ">=7.1",
     "yiisoft/yii2": "~2.0",
-    "bower-asset/animate.css": "~3.7",
+    "bower-asset/animate.css": "~4.1",
     "bower-asset/wow": "~1.1"
   },
   "config": {
